@@ -18,13 +18,13 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Switch
-        android:id="@+id/switch1"
+        android:id="@+id/lockSwitch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="22dp"
-        android:text="Gravity" />
+        android:text="@string/lock" />
 
     <TextView
         android:id="@+id/xSpeedValueTV"
